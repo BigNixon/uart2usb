@@ -1,9 +1,9 @@
 <sld_project_info>
   <project>
-    <hash md5_digest_80b="dcb62ff7a70d67cda81d"/>
+    <hash md5_digest_80b="bf9d830ae67d17d21b31"/>
   </project>
   <file_info>
-    <file device="10M50DAF484C7G" path="uart2usb.sof" usercode="0xFFFFFFFF"/>
+    <file device="5CSEBA6U23I7" path="uart2usb.sof" usercode="0xFFFFFFFF"/>
   </file_info>
   <hub_info hub_ir_width="4" ir_width="2" node_addr_width="1" node_count="1"/>
   <node_info>
@@ -85,15 +85,13 @@
   <sld_infos>
     <sld_info hpath="" name="">
       <assignment_values>
-        <assignment_value text="QSYS_NAME unsaved HAS_SOPCINFO 1 GENERATION_ID 1650407665"/>
-        <assignment_value text="QSYS_NAME unsaved HAS_SOPCINFO 1 GENERATION_ID 1650407690"/>
+        <assignment_value text="QSYS_NAME unsaved HAS_SOPCINFO 1 GENERATION_ID 1655957169"/>
       </assignment_values>
       <parameters/>
     </sld_info>
     <sld_info hpath="sld_hub:auto_hub" name="auto_hub">
       <assignment_values>
-        <assignment_value text="QSYS_NAME unsaved HAS_SOPCINFO 1 GENERATION_ID 1650407665"/>
-        <assignment_value text="QSYS_NAME unsaved HAS_SOPCINFO 1 GENERATION_ID 1650407690"/>
+        <assignment_value text="QSYS_NAME unsaved HAS_SOPCINFO 1 GENERATION_ID 1655957169"/>
       </assignment_values>
       <parameters/>
     </sld_info>

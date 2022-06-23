@@ -257,7 +257,7 @@
 000912a8 A __bss_end
 000912a8 A _end
 000912a8 A end
+00091530 A __alt_data_end
+00091530 A __alt_heap_limit
+00091530 A __alt_stack_pointer
 000985d0 A _gp
-000e4000 A __alt_data_end
-000e4000 A __alt_heap_limit
-000e4000 A __alt_stack_pointer

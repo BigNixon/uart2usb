@@ -2,9 +2,9 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>19/04/2022 04:35:05 PM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1650404105116</BspGeneratedUnixTimeStamp>
-        <BspGeneratedLocation>C:\Users\Usuario\Desktop\Nixon\hardware_dev\FPGA\proyectos\quartus_projects\uart_usb_test\software\uart2usb_bsp</BspGeneratedLocation>
+        <BspGeneratedTimeStamp>22/06/2022 10:50:06 PM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1655956206548</BspGeneratedUnixTimeStamp>
+        <BspGeneratedLocation>C:\Users\nixo-\Desktop\Nixon\HardwareDev\FPGA\Proyectos\uart2usb\software\uart2usb_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>..\..\unsaved.sopcinfo</SopcDesignFile>
         <JdiFile>default</JdiFile>
@@ -900,8 +900,8 @@
         </Setting>
         <MemoryMap>
                 <slaveDescriptor>onchip_memory2_0</slaveDescriptor>
-                <addressRange>0x00080000 - 0x000E3FFF</addressRange>
-                <addressSpan>409600</addressSpan>
+                <addressRange>0x00080000 - 0x0009152F</addressRange>
+                <addressSpan>70960</addressSpan>
                 <attributes>memory</attributes>
         </MemoryMap>
         <MemoryMap>

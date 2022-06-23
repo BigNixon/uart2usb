@@ -36,7 +36,7 @@ module unsaved_onchip_memory2_0 (
                                 )
 ;
 
-  parameter INIT_FILE = "C:/Users/Usuario/Desktop/Nixon/hardware_dev/FPGA/proyectos/quartus_projects/uart_usb_test/software/uart2usb/mem_init/unsaved_onchip_memory2_0.hex";
+  parameter INIT_FILE = "C:/Users/nixo-/Desktop/Nixon/HardwareDev/FPGA/Proyectos/uart2usb/software/uart2usb/mem_init/unsaved_onchip_memory2_0.hex";
 
 
   output  [ 31: 0] readdata;

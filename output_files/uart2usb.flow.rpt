@@ -1,5 +1,5 @@
 Flow report for uart2usb
-Wed Jun 22 23:09:51 2022
+Thu Jun 23 17:05:05 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,18 +40,18 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Wed Jun 22 23:09:35 2022       ;
+; Flow Status                     ; Successful - Thu Jun 23 17:04:54 2022       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; uart2usb                                    ;
 ; Top-level Entity Name           ; unsaved                                     ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CSEBA6U23I7                                ;
 ; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; 670 / 41,910 ( 2 % )                        ;
-; Total registers                 ; 894                                         ;
+; Logic utilization (in ALMs)     ; 800 / 41,910 ( 2 % )                        ;
+; Total registers                 ; 900                                         ;
 ; Total pins                      ; 4 / 314 ( 1 % )                             ;
 ; Total virtual pins              ; 0                                           ;
-; Total block memory bits         ; 577,920 / 5,662,720 ( 10 % )                ;
+; Total block memory bits         ; 3,210,240 / 5,662,720 ( 57 % )              ;
 ; Total DSP Blocks                ; 0 / 112 ( 0 % )                             ;
 ; Total HSSI RX PCSs              ; 0                                           ;
 ; Total HSSI PMA RX Deserializers ; 0                                           ;
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 06/22/2022 23:05:39 ;
+; Start date & time ; 06/23/2022 17:02:41 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; uart2usb            ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 88974379893499.165595713916952         ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 185410946539383.165602176002708        ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 100                                    ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; -40                                    ; --            ; --          ; --         ;
 ; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                      ; --            ; --          ; --         ;
@@ -91,7 +91,7 @@ refer to the applicable agreement for further details.
 ; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --            ; --          ; --         ;
 ; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --          ; --         ;
 ; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --          ; --         ;
-; SEARCH_PATH                         ; software/uart2usb/mem_init/            ; --            ; --          ; --         ;
+; SEARCH_PATH                         ; software/menu_uart/mem_init/           ; --            ; --          ; --         ;
 ; TOP_LEVEL_ENTITY                    ; unsaved                                ; uart2usb      ; --          ; --         ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 
@@ -101,11 +101,11 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:01:23     ; 1.0                     ; 5004 MB             ; 00:02:12                           ;
-; Fitter               ; 00:02:14     ; 1.1                     ; 7367 MB             ; 00:10:07                           ;
-; Assembler            ; 00:00:08     ; 1.0                     ; 4869 MB             ; 00:00:08                           ;
-; Timing Analyzer      ; 00:00:14     ; 1.9                     ; 5357 MB             ; 00:00:21                           ;
-; Total                ; 00:03:59     ; --                      ; --                  ; 00:12:48                           ;
+; Analysis & Synthesis ; 00:00:39     ; 1.0                     ; 4993 MB             ; 00:01:13                           ;
+; Fitter               ; 00:01:21     ; 1.2                     ; 6952 MB             ; 00:04:03                           ;
+; Assembler            ; 00:00:09     ; 1.0                     ; 4895 MB             ; 00:00:09                           ;
+; Timing Analyzer      ; 00:00:10     ; 2.5                     ; 5327 MB             ; 00:00:22                           ;
+; Total                ; 00:02:19     ; --                      ; --                  ; 00:05:47                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -114,10 +114,10 @@ refer to the applicable agreement for further details.
 +----------------------+------------------+------------+------------+----------------+
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; LAPTOP-51VL7QIH  ; Windows 10 ; 10.0       ; x86_64         ;
-; Fitter               ; LAPTOP-51VL7QIH  ; Windows 10 ; 10.0       ; x86_64         ;
-; Assembler            ; LAPTOP-51VL7QIH  ; Windows 10 ; 10.0       ; x86_64         ;
-; Timing Analyzer      ; LAPTOP-51VL7QIH  ; Windows 10 ; 10.0       ; x86_64         ;
+; Analysis & Synthesis ; DESKTOP-CQCVRLV  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; DESKTOP-CQCVRLV  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; DESKTOP-CQCVRLV  ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; DESKTOP-CQCVRLV  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 

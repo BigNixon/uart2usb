@@ -1,13 +1,13 @@
-Analysis & Synthesis Status : Successful - Wed Jun 22 23:07:03 2022
+Analysis & Synthesis Status : Successful - Thu Jun 23 17:03:21 2022
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : uart2usb
 Top-level Entity Name : unsaved
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 842
+Total registers : 845
 Total pins : 4
 Total virtual pins : 0
-Total block memory bits : 577,920
+Total block memory bits : 3,210,240
 Total DSP Blocks : 0
 Total HSSI RX PCSs : 0
 Total HSSI PMA RX Deserializers : 0

@@ -1,16 +1,16 @@
-Fitter Status : Successful - Wed Jun 22 23:09:19 2022
+Fitter Status : Successful - Thu Jun 23 17:04:43 2022
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : uart2usb
 Top-level Entity Name : unsaved
 Family : Cyclone V
 Device : 5CSEBA6U23I7
 Timing Models : Final
-Logic utilization (in ALMs) : 670 / 41,910 ( 2 % )
-Total registers : 894
+Logic utilization (in ALMs) : 800 / 41,910 ( 2 % )
+Total registers : 900
 Total pins : 4 / 314 ( 1 % )
 Total virtual pins : 0
-Total block memory bits : 577,920 / 5,662,720 ( 10 % )
-Total RAM Blocks : 75 / 553 ( 14 % )
+Total block memory bits : 3,210,240 / 5,662,720 ( 57 % )
+Total RAM Blocks : 395 / 553 ( 71 % )
 Total DSP Blocks : 0 / 112 ( 0 % )
 Total HSSI RX PCSs : 0
 Total HSSI PMA RX Deserializers : 0

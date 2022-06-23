@@ -67,7 +67,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
   </table>
   <table class="blueBar">
    <tr>
-    <td class="l">2022.06.22.23:06:10</td>
+    <td class="l">2022.06.23.17:02:54</td>
     <td class="r">Datasheet</td>
    </tr>
   </table>
@@ -125,8 +125,8 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
    </tr>
    <tr>
     <td class="slaveb">debug_mem_slave&#160;</td>
-    <td class="addr"><span style="color:#989898">0x</span>00100800</td>
-    <td class="addr"><span style="color:#989898">0x</span>00100800</td>
+    <td class="addr"><span style="color:#989898">0x</span>00200800</td>
+    <td class="addr"><span style="color:#989898">0x</span>00200800</td>
    </tr>
    <tr>
     <td class="slavemodule">&#160;
@@ -138,8 +138,8 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
    </tr>
    <tr>
     <td class="slaveb">s1&#160;</td>
-    <td class="addr"><span style="color:#989898">0x</span>00080000</td>
-    <td class="addr"><span style="color:#989898">0x</span>00080000</td>
+    <td class="addr"><span style="color:#989898">0x</span>00100000</td>
+    <td class="addr"><span style="color:#989898">0x</span>00100000</td>
    </tr>
    <tr>
     <td class="slavemodule">&#160;
@@ -151,7 +151,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
    </tr>
    <tr>
     <td class="slaveb">s1&#160;</td>
-    <td class="addr"><span style="color:#989898">0x</span>00101000</td>
+    <td class="addr"><span style="color:#989898">0x</span>00201000</td>
     <td class="empty"></td>
    </tr>
   </table>
@@ -869,15 +869,15 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">resetAbsoluteAddr</td>
-        <td class="parametervalue">524288</td>
+        <td class="parametervalue">1048576</td>
        </tr>
        <tr>
         <td class="parametername">exceptionAbsoluteAddr</td>
-        <td class="parametervalue">524320</td>
+        <td class="parametervalue">1048608</td>
        </tr>
        <tr>
         <td class="parametername">breakAbsoluteAddr</td>
-        <td class="parametervalue">1050656</td>
+        <td class="parametervalue">2099232</td>
        </tr>
        <tr>
         <td class="parametername">mmu_TLBMissExcAbsAddr</td>
@@ -933,7 +933,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">instAddrWidth</td>
-        <td class="parametervalue">21</td>
+        <td class="parametervalue">22</td>
        </tr>
        <tr>
         <td class="parametername">faAddrWidth</td>
@@ -941,7 +941,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">dataAddrWidth</td>
-        <td class="parametervalue">21</td>
+        <td class="parametervalue">22</td>
        </tr>
        <tr>
         <td class="parametername">tightlyCoupledDataMaster0AddrWidth</td>
@@ -985,7 +985,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">instSlaveMapParam</td>
-        <td class="parametervalue">&lt;address-map&gt;&lt;slave name='onchip_memory2_0.s1' start='0x80000' end='0x91530' type='altera_avalon_onchip_memory2.s1' /&gt;&lt;slave name='nios2_gen2_0.debug_mem_slave' start='0x100800' end='0x101000' type='altera_nios2_gen2.debug_mem_slave' /&gt;&lt;/address-map&gt;</td>
+        <td class="parametervalue">&lt;address-map&gt;&lt;slave name='onchip_memory2_0.s1' start='0x100000' end='0x161A80' type='altera_avalon_onchip_memory2.s1' /&gt;&lt;slave name='nios2_gen2_0.debug_mem_slave' start='0x200800' end='0x201000' type='altera_nios2_gen2.debug_mem_slave' /&gt;&lt;/address-map&gt;</td>
        </tr>
        <tr>
         <td class="parametername">faSlaveMapParam</td>
@@ -993,7 +993,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">dataSlaveMapParam</td>
-        <td class="parametervalue">&lt;address-map&gt;&lt;slave name='onchip_memory2_0.s1' start='0x80000' end='0x91530' type='altera_avalon_onchip_memory2.s1' /&gt;&lt;slave name='nios2_gen2_0.debug_mem_slave' start='0x100800' end='0x101000' type='altera_nios2_gen2.debug_mem_slave' /&gt;&lt;slave name='uart_0.s1' start='0x101000' end='0x101020' type='altera_avalon_uart.s1' /&gt;&lt;/address-map&gt;</td>
+        <td class="parametervalue">&lt;address-map&gt;&lt;slave name='onchip_memory2_0.s1' start='0x100000' end='0x161A80' type='altera_avalon_onchip_memory2.s1' /&gt;&lt;slave name='nios2_gen2_0.debug_mem_slave' start='0x200800' end='0x201000' type='altera_nios2_gen2.debug_mem_slave' /&gt;&lt;slave name='uart_0.s1' start='0x201000' end='0x201020' type='altera_avalon_uart.s1' /&gt;&lt;/address-map&gt;</td>
        </tr>
        <tr>
         <td class="parametername">tightlyCoupledDataMaster0MapParam</td>
@@ -1106,7 +1106,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">BREAK_ADDR</td>
-        <td class="parametervalue">0x00100820</td>
+        <td class="parametervalue">0x00200820</td>
        </tr>
        <tr>
         <td class="parametername">CPU_ARCH_NIOS2_R1</td>
@@ -1130,7 +1130,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">DATA_ADDR_WIDTH</td>
-        <td class="parametervalue">21</td>
+        <td class="parametervalue">22</td>
        </tr>
        <tr>
         <td class="parametername">DCACHE_LINE_SIZE</td>
@@ -1146,7 +1146,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">EXCEPTION_ADDR</td>
-        <td class="parametervalue">0x00080020</td>
+        <td class="parametervalue">0x00100020</td>
        </tr>
        <tr>
         <td class="parametername">FLASH_ACCELERATOR_LINES</td>
@@ -1202,7 +1202,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">INST_ADDR_WIDTH</td>
-        <td class="parametervalue">21</td>
+        <td class="parametervalue">22</td>
        </tr>
        <tr>
         <td class="parametername">OCI_VERSION</td>
@@ -1210,7 +1210,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">RESET_ADDR</td>
-        <td class="parametervalue">0x00080000</td>
+        <td class="parametervalue">0x00100000</td>
        </tr>
       </table>
      </td>
@@ -1307,7 +1307,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">initializationFileName</td>
-        <td class="parametervalue">C:/Users/nixo-/Desktop/Nixon/HardwareDev/FPGA/Proyectos/uart2usb/software/uart2usb/mem_init/unsaved_onchip_memory2_0.hex</td>
+        <td class="parametervalue">C:/Users/Usuario/Desktop/Nixon/hardware_dev/FPGA/proyectos/repositorios/uart_usb_test/software/menu_uart/mem_init/unsaved_onchip_memory2_0.hex</td>
        </tr>
        <tr>
         <td class="parametername">enPRInitMode</td>
@@ -1319,7 +1319,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">memorySize</td>
-        <td class="parametervalue">70960</td>
+        <td class="parametervalue">400000</td>
        </tr>
        <tr>
         <td class="parametername">readDuringWriteMode</td>
@@ -1387,11 +1387,11 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">derived_set_addr_width</td>
-        <td class="parametervalue">15</td>
+        <td class="parametervalue">17</td>
        </tr>
        <tr>
         <td class="parametername">derived_set_addr_width2</td>
-        <td class="parametervalue">15</td>
+        <td class="parametervalue">17</td>
        </tr>
        <tr>
         <td class="parametername">derived_set_data_width</td>
@@ -1411,7 +1411,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">derived_init_file_name</td>
-        <td class="parametervalue">C:/Users/nixo-/Desktop/Nixon/HardwareDev/FPGA/Proyectos/uart2usb/software/uart2usb/mem_init/unsaved_onchip_memory2_0.hex</td>
+        <td class="parametervalue">C:/Users/Usuario/Desktop/Nixon/hardware_dev/FPGA/proyectos/repositorios/uart_usb_test/software/menu_uart/mem_init/unsaved_onchip_memory2_0.hex</td>
        </tr>
        <tr>
         <td class="parametername">generateLegacySim</td>
@@ -1480,7 +1480,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">SIZE_VALUE</td>
-        <td class="parametervalue">70960</td>
+        <td class="parametervalue">400000</td>
        </tr>
        <tr>
         <td class="parametername">WRITABLE</td>
@@ -1679,8 +1679,8 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
   </div>
   <table class="blueBar">
    <tr>
-    <td class="l">generation took 0,01 seconds</td>
-    <td class="r">rendering took 0,05 seconds</td>
+    <td class="l">generation took 0,00 seconds</td>
+    <td class="r">rendering took 0,03 seconds</td>
    </tr>
   </table>
  </body>

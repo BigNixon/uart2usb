@@ -1,3 +1,4 @@
-activeuserprofiles=LAPTOP-51VL7QIH;Team
+activeuserprofiles=DESKTOP-CQCVRLV;Team
 eclipse.preferences.version=1
-org.eclipse.rse.systemtype.local.systemType.defaultUserId=nixo-
+org.eclipse.rse.systemtype.local.systemType.defaultUserId=Usuario
+useridperkey=DESKTOP-CQCVRLV.Local\=Usuario;

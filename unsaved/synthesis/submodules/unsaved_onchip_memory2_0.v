@@ -36,11 +36,11 @@ module unsaved_onchip_memory2_0 (
                                 )
 ;
 
-  parameter INIT_FILE = "C:/Users/nixo-/Desktop/Nixon/HardwareDev/FPGA/Proyectos/uart2usb/software/uart2usb/mem_init/unsaved_onchip_memory2_0.hex";
+  parameter INIT_FILE = "C:/Users/Usuario/Desktop/Nixon/hardware_dev/FPGA/proyectos/repositorios/uart_usb_test/software/menu_uart/mem_init/unsaved_onchip_memory2_0.hex";
 
 
   output  [ 31: 0] readdata;
-  input   [ 14: 0] address;
+  input   [ 16: 0] address;
   input   [  3: 0] byteenable;
   input            chipselect;
   input            clk;
@@ -71,8 +71,8 @@ wire             wren;
   defparam the_altsyncram.byte_size = 8,
            the_altsyncram.init_file = INIT_FILE,
            the_altsyncram.lpm_type = "altsyncram",
-           the_altsyncram.maximum_depth = 17740,
-           the_altsyncram.numwords_a = 17740,
+           the_altsyncram.maximum_depth = 100000,
+           the_altsyncram.numwords_a = 100000,
            the_altsyncram.operation_mode = "SINGLE_PORT",
            the_altsyncram.outdata_reg_a = "UNREGISTERED",
            the_altsyncram.ram_block_type = "AUTO",
@@ -80,7 +80,7 @@ wire             wren;
            the_altsyncram.read_during_write_mode_port_a = "DONT_CARE",
            the_altsyncram.width_a = 32,
            the_altsyncram.width_byteena_a = 4,
-           the_altsyncram.widthad_a = 15;
+           the_altsyncram.widthad_a = 17;
 
   //s1, which is an e_avalon_slave
   //s2, which is an e_avalon_slave

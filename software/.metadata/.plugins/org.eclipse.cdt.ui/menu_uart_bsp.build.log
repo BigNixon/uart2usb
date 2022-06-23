@@ -1,0 +1,6 @@
+16:54:31 **** Clean-only build of configuration Nios II for project menu_uart_bsp ****
+make clean 
+[BSP clean complete]
+
+16:54:32 Build Finished (took 134ms)
+
